@@ -1,0 +1,9 @@
+intuition :
+=> it is obvious the key is the sorted string in the strings array 
+=> the value can be one of two both are possible 
+    *1:we make the default value for each key list(defaulDict(list))  and we just append the unsorted 
+    string taking the sorted string as a key  so our hashmap is like {sorted_s:[appended strings]}
+    then we return list(hashmap.value)
+    *2: the second is the value is the position of an array : let me explain [[],[]] this is the format of 
+    our result , good! , so we can make the position of the key(or sorted string) value and append all 
+    strings with the same sorted string in tha same position
