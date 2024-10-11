@@ -1,0 +1,12 @@
+this is the first leetcode problem and there are two approaches 
+
+
+=>the first one is brute force which check every pair of inputs and return there index
+
+
+=>the second is using hashmap and very clever :
+    *:if the name hashmap called the first question is what are my keys and values are here 
+    # here the keys are the num  and value its index got it? the how can i relate is  the next question
+        * add every num and its index in hashmap then if compliment is in hashmap return the value of the compliment 
+          and the current index 
+          easy pieasy 
