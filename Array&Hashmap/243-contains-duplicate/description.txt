@@ -8,8 +8,9 @@ Unordered: The elements do not have a defined order.
 Mutable: You can add or remove items after a set is created.
 
      *: using set just check if it exist and return true if exist and false if not
-     *: the secomd we used traditional hash map to master it the count as a value and each number as a key 
+     *: the second we used traditional hash map to master it the count as a value and each number as a key 
      so we can check each values using this method which is very good 
      //////////////////////////////////////////////
      if any(value > 1 for value in hash.values()):
      //////////////////////////////////////////////
+     *: here we saw how Counter is very it converted the loop on the second part to one line 
